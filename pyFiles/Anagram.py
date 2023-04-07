@@ -1,4 +1,5 @@
 from Factorial import Factorial
+from random import choice
 
 
 class Anagram(Factorial):
@@ -14,6 +15,20 @@ class Anagram(Factorial):
 
         else:
             return super().simple(len(self.word))
+
+    def generation_anagram(self):
+        letters = []
+        new_word = ""
+
+        for letter in self.word:
+            letters.append(letter)
+
+        for n in range(len(self.word)):
+            new_letter = choice(letters)
+            letters.remove(new_letter)
+            new_word += new_letter
+
+        return new_word
 
     def check_rapetition(self):
         repetition = {}
