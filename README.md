@@ -8,7 +8,6 @@ I'm doing this to train and improve my OOP skills and to study for the entrance 
    - [x] Create simple factorial method
    - [x] Create factorial with repetition method
    - [x] Crete circular factorial method
-   - [ ] Add special methods 
 - [ ] Create Anagrams Class
    - [ ] Create count of permutation method
    - [ ] Create random anagrams genaration method
