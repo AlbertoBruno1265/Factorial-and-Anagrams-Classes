@@ -8,8 +8,8 @@ I'm doing this to train and improve my OOP skills and to study for the entrance 
    - [x] Create simple factorial method
    - [x] Create factorial with repetition method
    - [x] Crete circular factorial method
-- [ ] Create Anagrams Class
-   - [ ] Create count of permutation method
+- [x] Create Anagrams Class
+   - [x] Create count of permutation method
    - [ ] Create random anagrams genaration method
    - [ ] (Optional) Save this randons anagrams in PostgreSQL data base
 
