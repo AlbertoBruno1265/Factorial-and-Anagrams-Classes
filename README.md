@@ -12,7 +12,7 @@ I'm doing this to train and improve my OOP skills and to study for the entrance 
 - [ ] Create Anagrams Class
    - [ ] Create count of permutation method
    - [ ] Create random anagrams genaration method
-   - [ ] (Optional) Save this anagrams in PostgreSQL data base
+   - [ ] (Optional) Save this randons anagrams in PostgreSQL data base
 
 **Optional:**
 - [ ] Create a Game Class
