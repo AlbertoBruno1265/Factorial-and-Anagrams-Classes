@@ -8,13 +8,15 @@ class Anagram(Factorial):
         super().__init__()
         self.word = word.upper()
         self.rept = []
+        self.total = 0
+        self.total_anagrams()
 
     def total_anagrams(self):
         if self.check_rapetition():
-            return super().repetition(len(self.word), self.rept)
+            self.total = super().repetition(len(self.word), self.rept)
 
         else:
-            return super().simple(len(self.word))
+            self.total = super().simple(len(self.word))
 
     def generation_anagram(self):
         letters = []
@@ -29,6 +31,20 @@ class Anagram(Factorial):
             new_word += new_letter
 
         return new_word
+
+    def all_anagrams_possibles(self):
+        count = 0
+
+        all_anagrams = []
+
+        while count < self.total:
+            anagram = self.generation_anagram()
+            if anagram not in all_anagrams:
+                all_anagrams.append(anagram)
+                count += 1
+
+        all_anagrams.sort()
+        return all_anagrams
 
     def check_rapetition(self):
         repetition = {}

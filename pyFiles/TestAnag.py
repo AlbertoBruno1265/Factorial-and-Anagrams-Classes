@@ -1,7 +1,10 @@
 import Anagram
 
-ana = Anagram.Anagram("abc")
+arara = Anagram.Anagram("arara")
+alberto = Anagram.Anagram("alberto")
 
-print(f"O total de anagramas para a palavra: '{ana.word}' é: {ana.total_anagrams()}")
+print(f"O total de anagramas para a palavra: '{arara.word}' é: {arara.total}")
+print(f"O total de anagramas para a palavra: '{alberto.word}' é: {alberto.total}")
 
-print(ana.generation_anagram())
+print(arara.all_anagrams_possibles())
+print(alberto.all_anagrams_possibles())
