@@ -1,10 +1,29 @@
 import Anagram
 
-arara = Anagram.Anagram("arara")
-alberto = Anagram.Anagram("alberto")
+abc = Anagram.Anagram("abc")
+eed = Anagram.Anagram("eed")
 
-print(f"O total de anagramas para a palavra: '{arara.word}' é: {arara.total}")
-print(f"O total de anagramas para a palavra: '{alberto.word}' é: {alberto.total}")
+print(abc)
+print(eed)
 
-print(arara.all_anagrams_possibles())
-print(alberto.all_anagrams_possibles())
+print("-=" * 25 + "-")
+
+print(abc.generation_anagram())
+print(eed.generation_anagram())
+
+print("-=" * 25 + "-")
+
+print(abc.all_anagrams_possibles())
+print(eed.all_anagrams_possibles())
+
+print("-=" * 25 + "-")
+
+if abc.check_rapetition():
+    print("Have repetition!")
+else:
+    print("Don't have repetition!")
+
+if eed.check_rapetition():
+    print("Have repetition!")
+else:
+    print("Don't have repetition")

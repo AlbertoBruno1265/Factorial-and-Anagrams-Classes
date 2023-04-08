@@ -10,7 +10,7 @@ I'm doing this to train and improve my OOP skills and to study for the entrance 
    - [x] Crete circular factorial method
 - [x] Create Anagrams Class
    - [x] Create count of permutation method
-   - [ ] Create random anagrams genaration method
+   - [x] Create random anagrams genaration method
    - [ ] (Optional) Save this randons anagrams in PostgreSQL data base
 
 **Optional:**
