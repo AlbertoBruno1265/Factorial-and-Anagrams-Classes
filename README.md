@@ -11,9 +11,8 @@ I'm doing this to train and improve my OOP skills and to study for the entrance 
 - [x] Create Anagrams Class
    - [x] Create count of permutation method
    - [x] Create random anagrams genaration method
-   - [ ] (Optional) Save this randons anagrams in PostgreSQL data base
 
 **Optional:**
-- [ ] Create a Game Class
-   - [ ] Random anagrams genaration
-   - [ ] Player methods
+- [x] Create a Game Class
+   - [x] Random anagrams genaration
+   - [x] Player methods
