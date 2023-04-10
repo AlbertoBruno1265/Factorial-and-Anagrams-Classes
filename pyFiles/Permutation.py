@@ -1,4 +1,4 @@
-class Factorial:
+class Permutation:
 
     def __init__(self, want_show=False):
         self.want_show = want_show

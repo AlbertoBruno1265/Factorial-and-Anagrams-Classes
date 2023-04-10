@@ -1,6 +1,6 @@
-import Factorial
+import Permutation
 
-fat = Factorial.Factorial(want_show=False)
+fat = Permutation.Permutation(want_show=False)
 print("-=" * 25 + "-")
 print(fat.simple(5))
 print("-=" * 25 + "-")

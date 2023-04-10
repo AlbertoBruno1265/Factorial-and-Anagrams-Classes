@@ -1,8 +1,8 @@
-from Factorial import Factorial
+from Permutation import Permutation
 from random import choice
 
 
-class Anagram(Factorial):
+class Anagram(Permutation):
 
     def __init__(self, word):
         super().__init__()
