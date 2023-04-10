@@ -1,4 +1,4 @@
-from AnagGame import Game
+from Anagram import Game
 
 # word = str(input("Insert the word to start the game: "))
 
