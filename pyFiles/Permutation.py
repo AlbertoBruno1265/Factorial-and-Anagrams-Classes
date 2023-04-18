@@ -22,7 +22,7 @@ class Permutation:
         for number in r:
             denominator *= self.simple(number)
 
-        return numerator/denominator
+        return int(numerator/denominator)
 
     def circular(self, n):
         return self.simple(n-1)
